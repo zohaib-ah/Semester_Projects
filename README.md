@@ -1,35 +1,28 @@
-Credit Card Validator
-Overview
+# Credit Card Validator
 
-The Credit Card Validator is a terminal-based program designed to validate credit card numbers using the Luhn algorithm. This project was developed as part of a semester project for the Programming Fundamentals course.
-Key Features
+## Overview
 
-    Validates credit card numbers based on the Luhn algorithm.
-    Identifies the credit card's issuer (e.g., Visa, MasterCard, American Express, etc.).
-    Provides a user-friendly terminal interface for validation.
+This project is a terminal-based program that validates credit card numbers using the **Luhn Algorithm**. It also identifies the card issuer based on the input credit card number.
 
-Algorithm Used: Luhn Algorithm
+---
 
-The Luhn algorithm, also known as the Modulus 10 algorithm, is a checksum formula widely used to validate identification numbers. It performs the following steps:
+## Features
 
-    Calculates the sum of integers at odd positions (starting from the rightmost digit).
-    Multiplies numbers at even positions by 2 and adjusts sums greater than 9.
-    Combines these results to determine if the number is valid (sum % 10 == 0).
+- **Validation**: Checks if the entered credit card number is valid.
+- **Card Identification**: Identifies the card issuer (e.g., Visa, MasterCard, etc.).
+- **Terminal-Based**: Fully functional as a terminal application.
 
-Scope
+---
 
-    The program does not generate valid credit card numbers but checks the validity of input numbers.
-    It ensures that the number follows the mathematical rules of the Luhn algorithm but does not verify expiration dates, CVV codes, or other security features.
+## Luhn Algorithm
 
-Sample Output
+The validation process uses the following steps:
 
-The program provides clear feedback on:
+1. Sum integers at odd positions from the rightmost digit.
+2. Multiply integers at even positions by 2 and sum the digits of the result.
+3. Add the results of the above steps.
+4. If the total sum is divisible by 10, the credit card number is valid.
 
-    Whether the card number is valid.
-    The card issuer (if valid).
+---
 
-Future Work
 
-Planned improvements include:
-
-    Adding features to provide more details about the credit card, such as card type or bank information.
