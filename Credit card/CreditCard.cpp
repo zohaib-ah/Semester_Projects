@@ -9,7 +9,7 @@ void color(int y);
 
 int main() {
     int sum1=0, sum2=0, sum;
-    int count ;
+    int count=0 ;
     long long divisor = 10;
     long long CreditCardNumber;
     char continue1;
