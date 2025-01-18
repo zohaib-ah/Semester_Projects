@@ -47,7 +47,7 @@ This project demonstrates a **Base Converter** implemented in C++ with **inline 
 
 - **Accurate Calculations**: Tested rigorously for precise results.
 
-
+---
 
 ## Conversion Functions
 
@@ -69,7 +69,7 @@ This project demonstrates a **Base Converter** implemented in C++ with **inline 
 
 Each function is implemented as a standalone unit.
 
-
+---
 
 ## Strengths
 
@@ -82,7 +82,7 @@ Each function is implemented as a standalone unit.
 - A strong demonstration of inline assembly in a practical application.
 
 
-
+---
 ## Shortcomings
 
 
@@ -97,7 +97,7 @@ Each function is implemented as a standalone unit.
 
 - Requires **Microsoft Visual C++** (MSVC) for compilation due to Intel assembly syntax.
 
-
+---
 
 ## Testing
 
@@ -114,30 +114,16 @@ Each function is implemented as a standalone unit.
   - Invalid or negative inputs.
 
 - Functionality of switches between functions was verified.
-
-
-
+---
 ## How to Use
-
-
 
 ### Prerequisites
 
 - Install **Visual Studio** with MSVC compiler support.
 
-
-
 ### Compilation
 
 ```bash
-
 # Open the project in Visual Studio
 
 # Build and run the executable
-
-
-
-
-
-
-
