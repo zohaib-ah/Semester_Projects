@@ -131,7 +131,9 @@ Each function is implemented as a standalone unit.
 
 ```bash
 
+# Open the project in Visual Studio
 
+# Build and run the executable
 
 
 
